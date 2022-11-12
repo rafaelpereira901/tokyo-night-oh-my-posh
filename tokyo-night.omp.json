@@ -31,7 +31,7 @@
             "fetch_status": true
           },
           "style": "plain",
-          "template": "<darkGray> on</> {{ .HEAD }}{{ if .Working.Changed }} x{{ end }}",
+          "template": "<darkGray> on</> {{ .HEAD }}",
           "type": "git"
         },
         {
